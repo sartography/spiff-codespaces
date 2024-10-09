@@ -16,7 +16,7 @@ services:
       - SPIFFWORKFLOW_BACKEND_OPEN_ID_INTERNAL_URL_IS_VALID_ISSUER=true
       - SPIFFWORKFLOW_BACKEND_CONNECTOR_PROXY_URL=http://spiffworkflow-connector:-localhost}:8004
       - SPIFFWORKFLOW_BACKEND_WSGI_PATH_PREFIX=/api
-
+      - SPIFFWORKFLOW_BACKEND_USE_WERKZEUG_MIDDLEWARE_PROXY_FIX=true
       # All of these options for reaching the "internal" OpenID URL work from inside the container:
       #
       # Via the compose host to the proxy's mapped port...
