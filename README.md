@@ -1,6 +1,6 @@
 # spiff-codespaces
 
-hammer this:
+hammer this inside of your github codespaces terminal:
 
     docker compose --file docker-compose.yml --file .devcontainer/devcontainer-docker-compose.yml up --wait
 
